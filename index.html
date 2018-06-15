@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>Cursed Gallery</title>
+  <style media="screen">
+    /* Prevent vertical gaps */
+
+    body {
+      background-color: #000;
+      color: #FFF;
+      font-size:10vw;
+    }
+
+    ::-webkit-scrollbar {
+      width: 10px;
+    }
+
+    /* Track */
+
+    ::-webkit-scrollbar-track {
+      background: #000;
+      border-radius: 10px;
+    }
+
+    /* Handle */
+
+    ::-webkit-scrollbar-thumb {
+      background: #888;
+      border-radius: 10px;
+    }
+
+    #gallery img {
+      width: 60% !important;
+      height: auto !important;
+      border-image: url('frame.png') 93 stretch stretch;
+      border-color: #f4be52;
+      border-style: inset;
+      border-width: 60px;
+      display: block;
+      background-color: #000;
+      margin: 0 auto 60px auto;
+    }
+
+    @media all and (max-width: 500px) {
+      img {
+        border-width: 0px;
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <br>
+  <p align='center'>Сколь вниз, там много интересного.</p>
+  <br>
+  <section id="gallery"></section>
+  <script src="bundle.js"></script>
+</body>
+
+</html>
