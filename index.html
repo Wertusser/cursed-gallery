@@ -5,13 +5,17 @@
   <title>Cursed Gallery</title>
   <style media="screen">
     /* Prevent vertical gaps */
+    p {
+      text-align: center;
+    }
+
     .header {
       font-size:10vw;
     }
 
-    p {
-      text-align: center;
+    .caption {
       font-size:2vw;
+      margin-bottom: 70px;
     }
 
     body {
@@ -46,7 +50,7 @@
       border-width: 60px;
       display: block;
       background-color: #000;
-      margin: 0 auto 60px auto;
+      margin: 0 auto;
     }
 
     @media all and (max-width: 500px) {
@@ -60,7 +64,7 @@
 
 <body>
   <br>
-  <p class="header" align='center'>Сколь вниз, там много интересного.</p>
+  <p class="header">Сколь вниз, там много интересного.</p>
   <br>
   <section id="gallery"></section>
   <script src="bundle.js"></script>
