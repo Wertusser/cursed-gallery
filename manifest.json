@@ -1,5 +1,10 @@
 {
- "name": "App",
+  "name": "Cursed Gallery",
+  "short_name": "cursed-gallery",
+  "lang": "ru-RU",
+  "start_url": "https://wertusser.github.io/cursed-gallery/",
+  "display": "standalone",
+  "theme_color": "#000"
  "icons": [
   {
    "src": "\/android-icon-36x36.png",
