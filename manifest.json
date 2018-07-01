@@ -4,7 +4,7 @@
   "lang": "ru-RU",
   "start_url": "https://wertusser.github.io/cursed-gallery/",
   "display": "standalone",
-  "theme_color": "#000"
+  "theme_color": "#000",
  "icons": [
   {
    "src": "icons\/android-icon-36x36.png",
